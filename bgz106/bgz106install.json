@@ -1,6 +1,6 @@
 { 
 	"software": [{ 
-		"name":"BGZ110", 
+		"name":"BGZ106", 
 		"install":{  
 			"ZFSROOT":"/zbrew/", 
 			"ZFSDIR":"usr/lpp/IBM/dbb/", 
