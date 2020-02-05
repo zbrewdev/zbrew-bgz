@@ -1,1 +1,12 @@
-À@¢–†£¦™…z@­À@•”…zÂÇéññðk@‰•¢£““zÀ@@éÆâÙÖÖãza©‚™…¦ak@éÆâÄÉÙz¤¢™a“——aÉÂÔa„‚‚ak@ÄÄÄÅÆ×ÁãÈz[ÀéÆâÄÉÙÐÉÂÔakÓÅÁåÅâzÉÂÔ@@ÐÐ½@Ð
+{ 
+	"software": [{ 
+		"name":"BGZ110", 
+		"install":{  
+			"ZFSROOT":"/zbrew/", 
+			"ZFSDIR":"usr/lpp/IBM/dbb/", 
+			"DDDEFPATH":"${ZFSDIR}IBM/",
+			"LEAVES":"IBM" 
+		 }
+	}] 
+}
+
