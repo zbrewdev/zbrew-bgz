@@ -1,0 +1,44 @@
+{
+        "software": [
+        {
+                "name":"BGZ106",
+                "datasets":[
+                        {
+                                "dsname":"SBGZA001",
+                                "dstype":"ZFS",
+                                "primary":3800,
+                                "secondary":50,
+                                "zones":["T"]
+                        },
+                        {
+                                "dsname":"SBGZSAMP",
+                                "dstype":"PDSE",
+                                "recfm":"FB",
+                                "lrecl":80,
+                                "primary":5,
+                                "secondary":5,
+                                "zones":["T"]
+                        },
+                        {
+                                "dsname":"ABGZSAMP",
+                                "dstype":"PDSE",
+                                "recfm":"FB",
+                                "lrecl":80,
+                                "primary":5,
+                                "secondary":5,
+                                "zones":["D"]
+                        },
+                        {
+                                "dsname":"ABGZHFS",
+                                "dstype":"PDSE",
+                                "recfm":"VB",
+                                "lrecl":8796,
+                                "primary":1200,
+                                "secondary":20,
+                                "zones":["D"]
+                        }
+                ]
+        }
+        ]
+}
+
