@@ -4,7 +4,6 @@
 		"install":{  
 			"ZFSROOT":"/zbrew/", 
 			"ZFSDIR":"usr/lpp/IBM/dbb/", 
-			"DDDEFPATH":"${ZFSDIR}IBM/",
 			"LEAVES":"IBM" 
 		 }
 	}] 

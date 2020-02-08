@@ -8,7 +8,9 @@
                                 "dstype":"ZFS",
                                 "primary":3800,
                                 "secondary":50,
-                                "zones":["T"]
+                                "zones":["T"],
+                                "dddefpath":"IBM/",
+                                "mountpnt":""
                         },
                         {
                                 "dsname":"SBGZSAMP",
