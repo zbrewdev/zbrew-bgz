@@ -1,0 +1,8 @@
+{ 
+	"software": [{ 
+		"relid":"BGZ106", 
+		"description":"IBM Dependency Based Build V1.0.6",
+		"prereq":[],
+		"coreq": []
+	}] 
+}
