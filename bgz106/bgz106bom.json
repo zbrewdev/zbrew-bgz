@@ -9,8 +9,9 @@
                                 "primary":3800,
                                 "secondary":50,
                                 "zones":["T"],
-                                "dddefpath":"IBM/",
-                                "mountpnt":""
+                                "dddefpath":"usr/lpp/IBM/dbb/IBM/",
+                                "mountpnt":"usr/lpp/IBM/dbb/",
+				"leaves":"IBM"
                         },
                         {
                                 "dsname":"SBGZSAMP",
