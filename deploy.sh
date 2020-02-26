@@ -17,7 +17,13 @@ if [ ! -d $1 ]; then
 	exit 16
 fi
 
-names='README.md LICENSE'
+rm -rf $1/bgz106
+mkdir $1/bgz106
+mkdir $1/bgz106/docs
+mkdir $1/bgz106/docs/C
+mkdir $1/bgz106/docs/C/cat1
+
+names=`cat bgz106.bom`
 code="${names}"
  
 for c in ${code}; do
