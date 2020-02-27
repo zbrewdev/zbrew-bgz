@@ -5,39 +5,42 @@
 		"prereq":
 		[
 			{  
-			"prodid":"ZOS",
+			"prodid":"CEE",
 			"description":"z/OS Base",
 			"release":
 			[
 				{
-				"relid":"ZOS220",
+				"relid":"CEE220",
 				"fmids": [
 					{
 					"fmid":"HBB77A0",
 					"description":"z/OS 2.2",
-					"ptfs":	[ 
+					"ptfs":	[
+						"HBB77A0" 
 					]
 					}
 				]
 				},
 				{  
-				"relid":"ZOS230",
+				"relid":"CEE230",
 				"fmids": [
 					{
 					"fmid":"HBB77B0",
 					"description":"z/OS 2.3",
 					"ptfs": [ 
+						"HBB77B0" 
 					]
 					}
 				]
                                 },
                                 {
-                                "relid":"ZOS240",
+                                "relid":"CEE240",
                                 "fmids": [
                                         {
                                         "fmid":"HBB77C0",
                                         "description":"z/OS 2.4",
                                         "ptfs": [
+						"HBB77C0" 
 					]
 					}
 				]
@@ -59,6 +62,7 @@
 					"fmid":"HJVB800",
 					"description":"Java 8 64 Bit",
 					"ptfs":	[
+						"HJVB800"
 					]
 					}
 				]
