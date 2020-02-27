@@ -5,12 +5,12 @@
 		"prereq":
 		[
 			{  
-			"prodid":"CEE",
+			"prodid":"ZOS",
 			"description":"z/OS Base",
 			"release":
 			[
 				{
-				"relid":"CEE220",
+				"relid":"ZOS220",
 				"fmids": [
 					{
 					"fmid":"HBB77A0",
@@ -22,7 +22,7 @@
 				]
 				},
 				{  
-				"relid":"CEE230",
+				"relid":"ZOS230",
 				"fmids": [
 					{
 					"fmid":"HBB77B0",
@@ -34,7 +34,7 @@
 				]
                                 },
                                 {
-                                "relid":"CEE240",
+                                "relid":"ZOS240",
                                 "fmids": [
                                         {
                                         "fmid":"HBB77C0",
