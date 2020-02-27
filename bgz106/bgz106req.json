@@ -2,7 +2,73 @@
 	"software": [{ 
 		"relid":"BGZ106", 
 		"description":"IBM Dependency Based Build V1.0.6",
-		"prereq":[],
-		"coreq": []
+		"prereq":
+		[
+			{  
+			"prodid":"ZOS",
+			"description":"z/OS Base",
+			"release":
+			[
+				{
+				"relid":"ZOS220",
+				"fmids": [
+					{
+					"fmid":"HBB77A0",
+					"description":"z/OS 2.2",
+					"ptfs":	[
+						"HBB77A0" 
+					]
+					}
+				]
+				},
+				{  
+				"relid":"ZOS230",
+				"fmids": [
+					{
+					"fmid":"HBB77B0",
+					"description":"z/OS 2.3",
+					"ptfs": [ 
+						"HBB77B0" 
+					]
+					}
+				]
+                                },
+                                {
+                                "relid":"ZOS240",
+                                "fmids": [
+                                        {
+                                        "fmid":"HBB77C0",
+                                        "description":"z/OS 2.4",
+                                        "ptfs": [
+						"HBB77C0" 
+					]
+					}
+				]
+				}
+			]
+			}
+		],
+		"coreq":
+		[  
+			{  
+			"prodid":"JVB", 
+			"description":"Java 64 Bit",
+			"release":
+			[
+				{
+				"relid":"JVB800",
+				"fmids": [
+					{
+					"fmid":"HJVB800",
+					"description":"Java 8 64 Bit",
+					"ptfs":	[
+						"HJVB800"
+					]
+					}
+				]
+				}
+			]
+			}
+		]
 	}] 
 }
