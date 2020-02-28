@@ -69,6 +69,25 @@
 				}
 			]
 			}
+			{
+                        "prodid":"GIT",
+                        "description":"Git Version 1.0",
+                        "release":
+                        [
+                                {
+                                "relid":"GIT100",
+                                "fmids": [
+                                        {
+                                        "fmid":"HAL2100",
+                                        "description":"Git Version 1.0",
+                                        "ptfs": [
+                                                "HAL2100"
+                                        ]
+                                        }
+                                ]
+                                }
+                        ]
+                        }
 		]
 	}] 
 }
