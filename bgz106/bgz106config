@@ -2,12 +2,11 @@
 # Need to perform product enablement 
 
 id="5737-I22"
-enablementText="
-PRODUCT OWNER('IBM CORP')               
+enablementText="PRODUCT OWNER('IBM CORP')               
         NAME('IBM Z OPEN DEV')              
         ID(${id})                    
         VERSION(*) RELEASE(*) MOD(*)    
-        FEATURENAME(*)
+        FEATURENAME('Dependency-Based-Build')
         STATE(ENABLED)"
 
 out=$(whence zbrewfuncs >/dev/null)
@@ -18,16 +17,6 @@ else
 	exit 4
 fi
 
-swregistrar "enable" "${id}" "${enablementText}"
+swregistrar "bgz106" "enable" "${id}" "${enablementText}"
 rc=$?
 exit $rc
-mydir=$(callerdir ${0})
-props="${mydir}/../../zbrew/properties/globalprops.json"
-zbrewpropse zbrew global "${props}"
-
-props="${mydir}/../../zbrew/properties/zbrewprops.json"
-zbrewpropse zbrew config "${props}"
-
-
-
-exit 0
