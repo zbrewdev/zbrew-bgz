@@ -9,13 +9,6 @@ enablementText="PRODUCT OWNER('IBM CORP')
         FEATURENAME('Dependency-Based-Build')
         STATE(ENABLED)"
 
-out=$(whence zbrewinternalfuncs >/dev/null)
-if [ $? -eq 0 ]; then
-	. zbrewinternalfuncs
-else    	
-	echo "zbrew tools need to be in your PATH" >&2
-	exit 4
-fi
 out=$(whence zbrewexternalfuncs >/dev/null)
 if [ $? -eq 0 ]; then
 	. zbrewexternalfuncs
